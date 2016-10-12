@@ -46,9 +46,9 @@ describe('Ellipse - Using public properties (file: Ellipse.js)', () => {
         done();
       });
 
-      it('{ a = 78.2, b = 7.4 } should return 1817.9768367793415', (done) => {
+      it('{ a = 78.2, b = 7.4 } should return 1817.9768367793417', (done) => {
         let ellipse = new Ellipse(78.2, 7.4);
-        expect(ellipse.area()).to.equal(1817.9768367793415);
+        expect(ellipse.area()).to.equal(1817.9768367793417);
         done();
       });
     });
