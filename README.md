@@ -1,12 +1,11 @@
-# <i class="fa fa-laptop"></i> Episk ellips
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-signal level-a"></i>A-nivå</li>
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv021/exercise-epic-ellipse.git">https://github.com/1dv021/exercise-epic-ellipse.git</a></li>
-</ul>
+# Episk ellips
 
-><i class="fa fa-warning"></i> __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+- A-nivå
+- [Gitbook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del2/episk-ellips/)
 
-Hämta hem [övningsuppgiftens repo](https://github.com/1dv021/exercise-epic-ellipse.git) och komplettera enligt nedan.
+> __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+Hämta hem övningsuppgiftens repo och lägg tillen .gitignore-fil och komplettera enligt nedan.
 
 ## Uppgift
 
@@ -14,13 +13,14 @@ Du ska skriva en konstruktorfunktion som skapar ett objekt av typen `Ellipse` d�
 
 ![Ellips](ellips.gif)
 
-En ellips area kan bestämmas med $$A=\pi a b$$, `Math.PI * a * b`, och dess omkrets approximativt med $$O = \pi \sqrt{2 a^2 + 2 b^2}$$, `Math.PI * Math.sqrt(2 * a * a + 2 * b * b)`.
+En ellips area kan bestämmas med `Math.PI * a * b`, och dess omkrets approximativt med `Math.PI * Math.sqrt(2 * a * a + 2 * b * b)`.
 
 ## Typen Ellipse
 
 Du ska komplettera filen `Ellipse.js` med kod som gör det möjligt att instansiera objekt av typen `Ellipse`.
 
 ### Egenskaper
+
 - `a`, halva storaxelns längd.
 - `b`, halva lillaxelns längd.
 
@@ -30,14 +30,14 @@ Metoderna nedan ska vara gemensamma för samtliga objekt som instansieras av typ
 
 - `area`, ska returnera ellipsens area.
 - `circumference`, ska returnera ellipsens omkrets.
-- `toString`, ska returnera en sträng representerande aktuellt objekt, med halva storaxelns längd satt till 42.7 och halva lillaxelns längd satt till 13.8, enligt `{ a: 42.7, b: 13.8, area: 1851.2, circumference: 199.4 }` där arean respektive omkretsen ska avrundas till en decimal.
+- `toString`, ska returnera en sträng representerande aktuellt objekt, med halva storaxelns längd satt till 42.7 och halva lillaxelns längd satt till 13.8, enligt `a: 42.7, b: 13.8, area: 1851.2, circumference: 199.4` där arean respektive omkretsen ska avrundas till en decimal.
 
-## <i class="fa fa-lightbulb-o"></i> Tips
-__Se föreläsning 5 och fokusera på designmönstret "Constructor/Prototype".__
+## Tips
+
+__Se föreläsningen som fokusera på designmönstret "Constructor/Prototype".__
 
 Genom att köra testerna som kommer med övningsuppgiften kan du undersöka om koden du skrivit löst uppgiften (i alla fall enligt testet...).
 
-## <i class="fa fa-flask"></i> Lösningsförslag
-<ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv021/exercise-solution-proposals/tree/master/part-2/epic-ellipse">https://github.com/1dv021/exercise-solution-proposals/tree/master/part-2/epic-ellipse</a></li>
-</ul>
+## Lösningsförslag
+
+- [https://github.com/1dv021/exercise-solution-proposals/tree/master/part-2/epic-ellipse](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-2/epic-ellipse)
